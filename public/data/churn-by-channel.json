@@ -1,0 +1,78 @@
+{
+  "title": "Retention vs Churn by Distribution Channel",
+  "channels": [
+    {
+      "channel": "Channel",
+      "totalPolicies": "Total Policies",
+      "renewed": "Renewed",
+      "churned": "Churned",
+      "retentionPct": "Retention %",
+      "churnPct": "Churn %"
+    },
+    {
+      "channel": "Agent",
+      "totalPolicies": 178614,
+      "renewed": 67923,
+      "churned": 110691,
+      "retentionPct": 38.03,
+      "churnPct": 61.97
+    },
+    {
+      "channel": "Direct / Walk-in",
+      "totalPolicies": 43806,
+      "renewed": 20624,
+      "churned": 23182,
+      "retentionPct": 47.08,
+      "churnPct": 52.92
+    },
+    {
+      "channel": "Broker",
+      "totalPolicies": 17598,
+      "renewed": 5537,
+      "churned": 12061,
+      "retentionPct": 31.46,
+      "churnPct": 68.54
+    },
+    {
+      "channel": "Strategic Channel",
+      "totalPolicies": 8930,
+      "renewed": 2920,
+      "churned": 6010,
+      "retentionPct": 32.7,
+      "churnPct": 67.3
+    },
+    {
+      "channel": "Digital Marketing",
+      "totalPolicies": 1082,
+      "renewed": 411,
+      "churned": 671,
+      "retentionPct": 37.99,
+      "churnPct": 62.01
+    },
+    {
+      "channel": "Branch Office",
+      "totalPolicies": 599,
+      "renewed": 237,
+      "churned": 362,
+      "retentionPct": 39.57,
+      "churnPct": 60.43
+    },
+    {
+      "channel": "Microinsurance",
+      "totalPolicies": 475,
+      "renewed": 242,
+      "churned": 233,
+      "retentionPct": 50.95,
+      "churnPct": 49.05
+    },
+    {
+      "channel": "Reinsurance / Co-insurance",
+      "totalPolicies": 367,
+      "renewed": 34,
+      "churned": 333,
+      "retentionPct": 9.26,
+      "churnPct": 90.74
+    }
+  ],
+  "finding": "Finding #2: Direct/Walk-in (47%) and Microinsurance (51%) outperform Agent (38%) and Broker (31%)"
+}

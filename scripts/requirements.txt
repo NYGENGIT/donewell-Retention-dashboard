@@ -1,0 +1,5 @@
+# Dependencies for scripts/build_dashboard_data.py
+# Install with:  pip install -r scripts/requirements.txt
+pandas>=2.0
+numpy>=1.24
+openpyxl>=3.1

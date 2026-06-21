@@ -1,0 +1,71 @@
+{
+ "title": "Distribution Channel Mix Evolution (2020-2024)",
+ "channels": [
+  "Agent",
+  "Direct / Walk-in",
+  "Broker",
+  "Strategic Channel",
+  "Digital Marketing",
+  "Branch Office",
+  "Microinsurance",
+  "Reinsurance / Co-insurance"
+ ],
+ "series": [
+  {
+   "year": 2020,
+   "Agent": 71.41,
+   "Direct / Walk-in": 18.88,
+   "Broker": 6.19,
+   "Strategic Channel": 3.16,
+   "Digital Marketing": 0,
+   "Branch Office": 0,
+   "Microinsurance": 0.19,
+   "Reinsurance / Co-insurance": 0.17
+  },
+  {
+   "year": 2021,
+   "Agent": 69.23,
+   "Direct / Walk-in": 19.17,
+   "Broker": 7.48,
+   "Strategic Channel": 3.78,
+   "Digital Marketing": 0.02,
+   "Branch Office": 0.01,
+   "Microinsurance": 0.19,
+   "Reinsurance / Co-insurance": 0.11
+  },
+  {
+   "year": 2022,
+   "Agent": 70.67,
+   "Direct / Walk-in": 17.57,
+   "Broker": 7.29,
+   "Strategic Channel": 3.24,
+   "Digital Marketing": 0.56,
+   "Branch Office": 0.29,
+   "Microinsurance": 0.19,
+   "Reinsurance / Co-insurance": 0.17
+  },
+  {
+   "year": 2023,
+   "Agent": 72.34,
+   "Direct / Walk-in": 14.3,
+   "Broker": 7.33,
+   "Strategic Channel": 4.11,
+   "Digital Marketing": 0.97,
+   "Branch Office": 0.6,
+   "Microinsurance": 0.21,
+   "Reinsurance / Co-insurance": 0.15
+  },
+  {
+   "year": 2024,
+   "Agent": 73.09,
+   "Direct / Walk-in": 14.43,
+   "Broker": 6.43,
+   "Strategic Channel": 4.12,
+   "Digital Marketing": 1.12,
+   "Branch Office": 0.49,
+   "Microinsurance": 0.21,
+   "Reinsurance / Co-insurance": 0.12
+  }
+ ],
+ "finding": "Agent has held 69-73% of volume for 5 years — a missed opportunity to rebalance toward stickier channels"
+}

@@ -1,0 +1,58 @@
+{
+  "title": "Cohort Retention \u2014 % of original cohort still active",
+  "xLabels": [
+    "N (acq.)",
+    "N+1",
+    "N+2",
+    "N+3",
+    "N+4"
+  ],
+  "cohorts": [
+    {
+      "cohort": 2020,
+      "customersAtN": 44382,
+      "n1": 46.82,
+      "n2": 33.57,
+      "n3": 25.17,
+      "n4": 19.46,
+      "n5": null
+    },
+    {
+      "cohort": 2021,
+      "customersAtN": 34882,
+      "n1": 36.46,
+      "n2": 24.13,
+      "n3": 17.28,
+      "n4": null,
+      "n5": null
+    },
+    {
+      "cohort": 2022,
+      "customersAtN": 27020,
+      "n1": 32.74,
+      "n2": 21.25,
+      "n3": null,
+      "n4": null,
+      "n5": null
+    },
+    {
+      "cohort": 2023,
+      "customersAtN": 23535,
+      "n1": 31.26,
+      "n2": null,
+      "n3": null,
+      "n4": null,
+      "n5": null
+    },
+    {
+      "cohort": 2024,
+      "customersAtN": 21474,
+      "n1": null,
+      "n2": null,
+      "n3": null,
+      "n4": null,
+      "n5": null
+    }
+  ],
+  "finding": "Finding #1: Each cohort loses >50% of customers by Year 2 \u2014 and 2022-2023 cohorts are worse"
+}

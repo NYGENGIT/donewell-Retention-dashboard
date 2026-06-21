@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Font roles. Using robust cross-platform stacks keeps the static build
+   hermetic (no font fetch at build time) while still pairing a humanist
+   sans for body with a sturdy serif for the display headline. */
+:root {
+  --font-sans: 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, system-ui, sans-serif;
+  --font-display: 'Iowan Old Style', 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+  --font-mono: 'SFMono-Regular', 'JetBrains Mono', Menlo, Consolas, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: theme('colors.paper');
+  color: theme('colors.navy.ink');
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  * {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* Eyebrow label — the recurring structural device tying the views together. */
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: theme('letterSpacing.eyebrow');
+  text-transform: uppercase;
+  color: theme('colors.gold.deep');
+}
+
+/* Thin gold rule used to open each view. */
+.rule-gold {
+  height: 3px;
+  width: 44px;
+  background: theme('colors.gold.DEFAULT');
+  border-radius: 2px;
+}
+
+/* Focus ring for keyboard users. */
+:focus-visible {
+  outline: 2px solid theme('colors.gold.DEFAULT');
+  outline-offset: 2px;
+}
+
+/* Recharts: mute the default gridlines to match the report's quiet look. */
+.recharts-cartesian-grid line {
+  stroke: #e6eaf0;
+}
+.recharts-text {
+  fill: #5b6b86;
+  font-size: 12px;
+}

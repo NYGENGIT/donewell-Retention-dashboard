@@ -1,0 +1,62 @@
+{
+  "title": "Churn Rate by Premium Tier (GHS, Motor)",
+  "tiers": [
+    {
+      "tier": "Premium Tier (GHS)",
+      "totalPolicies": "Total Policies",
+      "renewed": "Renewed",
+      "churned": "Churned",
+      "retentionPct": "Retention %",
+      "churnPct": "Churn %"
+    },
+    {
+      "tier": "<0 (refund)",
+      "totalPolicies": 5049,
+      "renewed": 1565,
+      "churned": 3484,
+      "retentionPct": 31,
+      "churnPct": 69
+    },
+    {
+      "tier": "0-100",
+      "totalPolicies": 20689,
+      "renewed": 10424,
+      "churned": 10265,
+      "retentionPct": 50.38,
+      "churnPct": 49.62
+    },
+    {
+      "tier": "100-300",
+      "totalPolicies": 93644,
+      "renewed": 37572,
+      "churned": 56072,
+      "retentionPct": 40.12,
+      "churnPct": 59.88
+    },
+    {
+      "tier": "300-600",
+      "totalPolicies": 108975,
+      "renewed": 38538,
+      "churned": 70437,
+      "retentionPct": 35.36,
+      "churnPct": 64.64
+    },
+    {
+      "tier": "600-1500",
+      "totalPolicies": 12166,
+      "renewed": 5106,
+      "churned": 7060,
+      "retentionPct": 41.97,
+      "churnPct": 58.03
+    },
+    {
+      "tier": "1500+",
+      "totalPolicies": 10948,
+      "renewed": 4723,
+      "churned": 6225,
+      "retentionPct": 43.14,
+      "churnPct": 56.86
+    }
+  ],
+  "finding": "U-shaped curve: mid-tier (GHS 300-600) customers are the most churn-prone"
+}

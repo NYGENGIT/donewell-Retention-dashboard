@@ -1,0 +1,128 @@
+{
+  "title": "Customer Lifetime Value by Channel & Cohort (25% margin)",
+  "byChannel": [
+    {
+      "channel": "Agent",
+      "customers": 110627,
+      "avgCLV": 199.37,
+      "medianCLV": 106.25,
+      "totalCLV": 22055291.7,
+      "avgPolicies": 2,
+      "avgTenureYears": 0.76,
+      "totalCLVm": 22.06
+    },
+    {
+      "channel": "Direct / Walk-in",
+      "customers": 20672,
+      "avgCLV": 250.09,
+      "medianCLV": 109.25,
+      "totalCLV": 5169946.28,
+      "avgPolicies": 2.54,
+      "avgTenureYears": 1.09,
+      "totalCLVm": 5.17
+    },
+    {
+      "channel": "Broker",
+      "customers": 11769,
+      "avgCLV": 348.93,
+      "medianCLV": 106.25,
+      "totalCLV": 4106527.27,
+      "avgPolicies": 1.84,
+      "avgTenureYears": 0.68,
+      "totalCLVm": 4.11
+    },
+    {
+      "channel": "Strategic Channel",
+      "customers": 6226,
+      "avgCLV": 561.26,
+      "medianCLV": 109.25,
+      "totalCLV": 3494398.74,
+      "avgPolicies": 1.84,
+      "avgTenureYears": 0.53,
+      "totalCLVm": 3.49
+    },
+    {
+      "channel": "Digital Marketing",
+      "customers": 1053,
+      "avgCLV": 216.26,
+      "medianCLV": 109.25,
+      "totalCLV": 227725.63,
+      "avgPolicies": 1.58,
+      "avgTenureYears": 0.36,
+      "totalCLVm": 0.23
+    },
+    {
+      "channel": "Branch Office",
+      "customers": 486,
+      "avgCLV": 291.03,
+      "medianCLV": 130.86,
+      "totalCLV": 141441.71,
+      "avgPolicies": 1.79,
+      "avgTenureYears": 0.54,
+      "totalCLVm": 0.14
+    },
+    {
+      "channel": "Reinsurance / Co-insurance",
+      "customers": 327,
+      "avgCLV": 13110.65,
+      "medianCLV": 7750,
+      "totalCLV": 4287183.59,
+      "avgPolicies": 1.37,
+      "avgTenureYears": 0.16,
+      "totalCLVm": 4.29
+    },
+    {
+      "channel": "Microinsurance",
+      "customers": 198,
+      "avgCLV": 1303.3,
+      "medianCLV": 347.78,
+      "totalCLV": 258053.04,
+      "avgPolicies": 3.11,
+      "avgTenureYears": 1.64,
+      "totalCLVm": 0.26
+    }
+  ],
+  "byCohort": [
+    {
+      "cohort": 2020,
+      "customers": 44382,
+      "avgCLV": 307.99,
+      "medianCLV": 111.46,
+      "totalCLV": 13669309.26,
+      "totalCLVm": 13.67
+    },
+    {
+      "cohort": 2021,
+      "customers": 34882,
+      "avgCLV": 264.77,
+      "medianCLV": 99.7,
+      "totalCLV": 9235786.68,
+      "totalCLVm": 9.24
+    },
+    {
+      "cohort": 2022,
+      "customers": 27020,
+      "avgCLV": 248.58,
+      "medianCLV": 88.39,
+      "totalCLV": 6716702.77,
+      "totalCLVm": 6.72
+    },
+    {
+      "cohort": 2023,
+      "customers": 23535,
+      "avgCLV": 253.73,
+      "medianCLV": 106.25,
+      "totalCLV": 5971607.69,
+      "totalCLVm": 5.97
+    },
+    {
+      "cohort": 2024,
+      "customers": 21474,
+      "avgCLV": 192.43,
+      "medianCLV": 109.25,
+      "totalCLV": 4132205.38,
+      "totalCLVm": 4.13
+    }
+  ],
+  "finding": "Strategic Channel & Broker deliver highest per-customer CLV; Agent lags despite volume dominance"
+}

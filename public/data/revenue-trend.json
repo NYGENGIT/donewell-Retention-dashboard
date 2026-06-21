@@ -1,0 +1,71 @@
+{
+  "title": "Premium Revenue & ARPU Trend (2020-2024)",
+  "years": [
+    {
+      "year": 2020,
+      "policies": 53038,
+      "customers": 44392,
+      "newCustomers": 44382,
+      "totalPremium": 26115902.74,
+      "avgPremium": 492.4,
+      "medianPremium": 206,
+      "arpu": 588.3,
+      "totalPremiumM": 26.12,
+      "newCustomerPct": 99.98,
+      "grossMarginM": 6.53
+    },
+    {
+      "year": 2021,
+      "policies": 68190,
+      "customers": 55664,
+      "newCustomers": 34882,
+      "totalPremium": 33967368.25,
+      "avgPremium": 498.13,
+      "medianPremium": 250,
+      "arpu": 610.22,
+      "totalPremiumM": 33.97,
+      "newCustomerPct": 62.67,
+      "grossMarginM": 8.49
+    },
+    {
+      "year": 2022,
+      "policies": 67338,
+      "customers": 54637,
+      "newCustomers": 27020,
+      "totalPremium": 36833478.59,
+      "avgPremium": 546.99,
+      "medianPremium": 302,
+      "arpu": 674.15,
+      "totalPremiumM": 36.83,
+      "newCustomerPct": 49.45,
+      "grossMarginM": 9.21
+    },
+    {
+      "year": 2023,
+      "policies": 62637,
+      "customers": 51971,
+      "newCustomers": 23535,
+      "totalPremium": 47884496.46,
+      "avgPremium": 764.48,
+      "medianPremium": 380,
+      "arpu": 921.37,
+      "totalPremiumM": 47.88,
+      "newCustomerPct": 45.28,
+      "grossMarginM": 11.97
+    },
+    {
+      "year": 2024,
+      "policies": 59244,
+      "customers": 49237,
+      "newCustomers": 21474,
+      "totalPremium": 49177709.65,
+      "avgPremium": 830.09,
+      "medianPremium": 437,
+      "arpu": 998.8,
+      "totalPremiumM": 49.18,
+      "newCustomerPct": 43.61,
+      "grossMarginM": 12.3
+    }
+  ],
+  "finding": "Finding #4: Premium grew 88% (GHS 26M\u219249M); ARPU +70% but customer base only +11%"
+}

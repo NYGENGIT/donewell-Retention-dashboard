@@ -1,0 +1,121 @@
+{
+  "title": "Donewell Motor Insurance \u2014 Portfolio Summary",
+  "period": "Feb 2020 \u2013 Dec 2024",
+  "headline": {
+    "retentionRate": 40.07,
+    "uniqueCustomers": 151358,
+    "totalNetPremium": 194298150.05,
+    "totalNetPremiumM": 194.0,
+    "avgCLV": 263,
+    "avgPoliciesPerCustomer": 2.05,
+    "multiPolicyPct": 40.9,
+    "observablePolicies": 251471,
+    "uniquePolicies": 310711,
+    "arpu2020": 588.3,
+    "arpu2024": 998.8,
+    "arpuGrowthPct": 69.78,
+    "churnRate": 61.06
+  },
+  "metrics": {
+    "Metric": {
+      "value": "Value",
+      "notes": "Notes"
+    },
+    "Time period": {
+      "value": "Feb 2020 \u2013 Dec 2024",
+      "notes": "5 years of policy transaction data"
+    },
+    "Company": {
+      "value": "Donewell Insurance Company Limited (Ghana)",
+      "notes": "Renamed \"Donewell Insurance Limited\" in 2024"
+    },
+    "Source files": {
+      "value": "5 Excel files (.xls + .xlsx)",
+      "notes": "One file per calendar year"
+    },
+    "Total raw transaction rows": {
+      "value": 343164,
+      "notes": "Across all years, all classes"
+    },
+    "After cleaning (Motor + GHS only)": {
+      "value": 328230,
+      "notes": "Excluded 110 Period To outliers + non-motor + non-GHS"
+    },
+    "Unique motor policies (latest endorsement)": {
+      "value": 310711,
+      "notes": "Deduplicated by Policy No., kept latest endorsement"
+    },
+    "Unique customers (composite key)": {
+      "value": 151358,
+      "notes": "Normalized Insured Name + channel code"
+    },
+    "Total Net Premium (GHS)": {
+      "value": 194298150.05,
+      "notes": "Sum of latest-endorsement premiums"
+    },
+    "Average Net Premium (GHS)": {
+      "value": 625.33,
+      "notes": "Mean per policy"
+    },
+    "Median Net Premium (GHS)": {
+      "value": 302,
+      "notes": "Median per policy"
+    },
+    "Average policy tenure (days)": {
+      "value": 306,
+      "notes": "(Period To - Period From) + 1"
+    },
+    "Median policy tenure (days)": {
+      "value": 365,
+      "notes": null
+    },
+    "Observable policies (Period To <= 2024-11-01)": {
+      "value": 251471,
+      "notes": "Eligible for renewal/churn evaluation"
+    },
+    "Renewed policies": {
+      "value": 100763,
+      "notes": "Same customer, new policy within 60 days of prior expiry"
+    },
+    "Churned policies": {
+      "value": 153543,
+      "notes": "No renewal within 60-day grace period"
+    },
+    "Overall retention rate (%)": {
+      "value": 40.07,
+      "notes": "Renewed / Observable"
+    },
+    "Overall churn rate (%)": {
+      "value": 61.06,
+      "notes": "Churned / Observable"
+    },
+    "Multi-policy customers": {
+      "value": 61944,
+      "notes": "Customers with >1 policy in 5-year window (40.9%)"
+    },
+    "Avg policies per customer": {
+      "value": 2.05,
+      "notes": null
+    },
+    "Customer gross margin assumption (%)": {
+      "value": 25,
+      "notes": "Ghana industry benchmark (NIC)"
+    },
+    "Avg CLV per customer (GHS)": {
+      "value": 572.77,
+      "notes": "Avg annual premium \u00d7 tenure \u00d7 margin"
+    },
+    "ARPU 2020 (GHS)": {
+      "value": 588.3,
+      "notes": "Average revenue per customer in 2020"
+    },
+    "ARPU 2024 (GHS)": {
+      "value": 998.8,
+      "notes": "Average revenue per customer in 2024"
+    },
+    "ARPU growth 2020\u21922024 (%)": {
+      "value": 69.78,
+      "notes": "+70% over 5 years"
+    }
+  }
+}
