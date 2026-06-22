@@ -49,6 +49,22 @@ file server; `npm run serve` uses `npx serve` for convenience.
 
 ---
 
+## Troubleshooting
+
+**"Could not load the dashboard data (… → 404)" while the page itself is styled.**
+This means the page loaded but its `data/*.json` files weren't found at the
+served location. The app resolves data relative to its own URL, so this should
+work whether the site is hosted at a domain root, at a GitHub Pages project
+sub-path, or previewed locally. If you still see it:
+
+- Make sure you are viewing the site over **http**, not by double-clicking the
+  built `index.html` (a `file://` page can't fetch local JSON). Locally, use
+  `npm run dev`, or `npm run serve` after `npm run build`.
+- Confirm the `public/data/` folder was committed and pushed — the GitHub Action
+  builds from the repo, so the 12 JSON files must be in version control.
+- Confirm the deploy finished: repo **Actions** tab → the latest "Deploy" run is
+  green, and **Settings → Pages → Source** is set to **GitHub Actions**.
+
 ## Deploying to GitHub Pages
 
 Deployment is automated by the workflow at `.github/workflows/deploy.yml`. It

@@ -98,13 +98,33 @@ export default function Page() {
 
   useEffect(() => {
     let cancelled = false;
+
+    // Try the document-relative path first (works at any deploy sub-path),
+    // then fall back to an origin-root path, so the data loads regardless of
+    // how the site is hosted.
+    async function fetchJson(file: string) {
+      const candidates = [asset(`/data/${file}`)];
+      if (typeof window !== 'undefined') {
+        candidates.push(new URL(`/data/${file}`, window.location.origin).toString());
+      }
+      let lastStatus = 0;
+      for (const url of candidates) {
+        try {
+          const res = await fetch(url);
+          if (res.ok) return res.json();
+          lastStatus = res.status;
+        } catch {
+          /* try next candidate */
+        }
+      }
+      throw new Error(`${file} → ${lastStatus || 404}`);
+    }
+
     async function load() {
       try {
         const entries = await Promise.all(
           (Object.keys(FILES) as (keyof Bundle)[]).map(async (key) => {
-            const res = await fetch(asset(`/data/${FILES[key]}`));
-            if (!res.ok) throw new Error(`${FILES[key]} → ${res.status}`);
-            return [key, await res.json()] as const;
+            return [key, await fetchJson(FILES[key])] as const;
           }),
         );
         if (!cancelled) setData(Object.fromEntries(entries) as unknown as Bundle);
