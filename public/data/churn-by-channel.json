@@ -2,14 +2,6 @@
  "title": "Retention vs Churn by Distribution Channel",
  "channels": [
   {
-   "channel": "Channel",
-   "totalPolicies": "Total Policies",
-   "renewed": "Renewed",
-   "churned": "Churned",
-   "retentionPct": "Retention %",
-   "churnPct": "Churn %"
-  },
-  {
    "channel": "Agent",
    "totalPolicies": 221634,
    "renewed": 70873,

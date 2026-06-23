@@ -2,13 +2,6 @@
  "title": "Predictive Churn Signals & Agent Performance",
  "correlations": [
   {
-   "feature": "Feature",
-   "correlation": "Correlation w/ Churn",
-   "meanChurned": "Mean (Churned)",
-   "meanRenewed": "Mean (Renewed)",
-   "direction": "Direction"
-  },
-  {
    "feature": "Tenure (days)",
    "correlation": 0.06,
    "meanChurned": 302.41,
@@ -31,12 +24,6 @@
   }
  ],
  "issueTiming": [
-  {
-   "timing": "Issue Timing",
-   "policies": "Policies",
-   "churned": "Churned",
-   "churnPct": "Churn %"
-  },
   {
    "timing": "Late (≤0d)",
    "policies": 179356,

@@ -2,15 +2,6 @@
  "title": "Retention Rate by Motor Product (Top 10 by Volume)",
  "products": [
   {
-   "product": "Product",
-   "totalPolicies": "Total Policies",
-   "renewed": "Renewed",
-   "churned": "Churned",
-   "avgPremium": "Avg Premium (GHS)",
-   "retentionPct": "Retention %",
-   "churnPct": "Churn %"
-  },
-  {
    "product": "1030 - Motor Trade - Internal Risk",
    "totalPolicies": 913,
    "renewed": 410,

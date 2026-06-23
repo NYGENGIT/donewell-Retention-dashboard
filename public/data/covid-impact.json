@@ -2,17 +2,6 @@
  "title": "COVID-19 Impact — Half-Yearly Premium & Retention",
  "premium": [
   {
-   "halfYear": "Half-Year",
-   "policies": "Policies",
-   "customers": "Customers",
-   "newCustomers": "New Customers",
-   "totalPremium": "Total Premium (GHS)",
-   "avgPremium": "Avg Premium (GHS)",
-   "phase": "COVID Phase",
-   "newCustomerPct": "New Customer %",
-   "totalPremiumM": "Total Premium (GHS M)"
-  },
-  {
    "halfYear": "2020H1",
    "policies": 23274,
    "customers": 20534,
@@ -114,13 +103,6 @@
   }
  ],
  "retention": [
-  {
-   "halfYear": "Half-Year",
-   "observablePolicies": "Observable Policies",
-   "renewed": "Renewed",
-   "retentionPct": "Retention %",
-   "phase": "COVID Phase"
-  },
   {
    "halfYear": "2020H1",
    "observablePolicies": 23274,

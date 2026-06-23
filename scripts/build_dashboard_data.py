@@ -137,9 +137,9 @@ def scaffold(name):
     p = DATA_DIR / name
     return json.load(open(p)) if p.exists() else {}
 def header_of(sc, key):
-    arr = sc.get(key, [])
-    if arr and isinstance(arr[0], dict) and any(isinstance(v, str) for v in arr[0].values()):
-        return [arr[0]]
+    # Header rows (string-valued first elements) are NOT emitted: chart views run
+    # numeric formatters (e.g. LabelList .toFixed) over every array element, which
+    # throws on a string. The dashboard's tables render their own column headers.
     return []
 def block(sub):
     obs = sub[sub["observable"]]

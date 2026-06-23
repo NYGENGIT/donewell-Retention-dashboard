@@ -2,14 +2,6 @@
  "title": "Churn Rate by Premium Tier (GHS, Motor)",
  "tiers": [
   {
-   "tier": "Premium Tier (GHS)",
-   "totalPolicies": "Total Policies",
-   "renewed": "Renewed",
-   "churned": "Churned",
-   "retentionPct": "Retention %",
-   "churnPct": "Churn %"
-  },
-  {
    "tier": "<0 (refund)",
    "totalPolicies": 1645,
    "renewed": 237,
