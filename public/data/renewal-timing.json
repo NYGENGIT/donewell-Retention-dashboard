@@ -1,0 +1,162 @@
+{
+ "title": "Renewal Timing — on-time vs. late returners (120-day view)",
+ "windowNote": "On-time = next policy within 60 days of expiry (the current rule). Took a bit longer = 61–120 days after expiry. Churned = no renewal within 120 days.",
+ "overall": {
+  "observable60": 252578,
+  "observable120": 243592,
+  "onTime": 101077,
+  "tookLonger": 8531,
+  "churned60": 151501,
+  "churned120": 137829,
+  "retention60": 40.02,
+  "retention120": 43.42
+ },
+ "byChannel": [
+  {
+   "observable60": 178821,
+   "observable120": 172344,
+   "onTime": 70873,
+   "tookLonger": 6367,
+   "churned60": 107948,
+   "churned120": 97890,
+   "retention60": 39.63,
+   "retention120": 43.2,
+   "channel": "Agent"
+  },
+  {
+   "observable60": 43945,
+   "observable120": 42618,
+   "onTime": 20342,
+   "tookLonger": 1484,
+   "churned60": 23603,
+   "churned120": 21453,
+   "retention60": 46.29,
+   "retention120": 49.66,
+   "channel": "Direct / Walk-in"
+  },
+  {
+   "observable60": 17962,
+   "observable120": 17308,
+   "onTime": 5781,
+   "tookLonger": 431,
+   "churned60": 12181,
+   "churned120": 11333,
+   "retention60": 32.18,
+   "retention120": 34.52,
+   "channel": "Broker"
+  },
+  {
+   "observable60": 9062,
+   "observable120": 8732,
+   "onTime": 3129,
+   "tookLonger": 177,
+   "churned60": 5933,
+   "churned120": 5523,
+   "retention60": 34.53,
+   "retention120": 36.75,
+   "channel": "Strategic Channel"
+  },
+  {
+   "observable60": 1092,
+   "observable120": 1003,
+   "onTime": 417,
+   "tookLonger": 28,
+   "churned60": 675,
+   "churned120": 594,
+   "retention60": 38.19,
+   "retention120": 40.78,
+   "channel": "Digital Marketing"
+  },
+  {
+   "observable60": 615,
+   "observable120": 585,
+   "onTime": 57,
+   "tookLonger": 5,
+   "churned60": 558,
+   "churned120": 524,
+   "retention60": 9.27,
+   "retention120": 10.43,
+   "channel": "Reinsurance / Co-insurance"
+  },
+  {
+   "observable60": 605,
+   "observable120": 544,
+   "onTime": 238,
+   "tookLonger": 20,
+   "churned60": 367,
+   "churned120": 305,
+   "retention60": 39.34,
+   "retention120": 43.93,
+   "channel": "Branch Office"
+  },
+  {
+   "observable60": 476,
+   "observable120": 458,
+   "onTime": 240,
+   "tookLonger": 19,
+   "churned60": 236,
+   "churned120": 207,
+   "retention60": 50.42,
+   "retention120": 54.8,
+   "channel": "Microinsurance"
+  }
+ ],
+ "byCohort": [
+  {
+   "observable60": 128251,
+   "observable120": 125266,
+   "onTime": 54771,
+   "tookLonger": 4507,
+   "churned60": 73480,
+   "churned120": 67414,
+   "retention60": 42.71,
+   "retention120": 46.18,
+   "cohort": 2020
+  },
+  {
+   "observable60": 64408,
+   "observable120": 63043,
+   "onTime": 25577,
+   "tookLonger": 2176,
+   "churned60": 38831,
+   "churned120": 35929,
+   "retention60": 39.71,
+   "retention120": 43.01,
+   "cohort": 2021
+  },
+  {
+   "observable60": 36631,
+   "observable120": 35215,
+   "onTime": 13034,
+   "tookLonger": 1215,
+   "churned60": 23597,
+   "churned120": 21613,
+   "retention60": 35.58,
+   "retention120": 38.63,
+   "cohort": 2022
+  },
+  {
+   "observable60": 21051,
+   "observable120": 18509,
+   "onTime": 6881,
+   "tookLonger": 563,
+   "churned60": 14170,
+   "churned120": 11920,
+   "retention60": 32.69,
+   "retention120": 35.6,
+   "cohort": 2023
+  },
+  {
+   "observable60": 2237,
+   "observable120": 1559,
+   "onTime": 814,
+   "tookLonger": 70,
+   "churned60": 1423,
+   "churned120": 953,
+   "retention60": 36.39,
+   "retention120": 38.87,
+   "cohort": 2024
+  }
+ ],
+ "finding": "Of customers counted as churned under the 60-day rule, 8,531 actually came back within 61–120 days. Counting them as retained lifts overall retention from 40.02% to 43.42%."
+}

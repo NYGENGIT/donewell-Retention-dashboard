@@ -1,105 +1,105 @@
 {
-  "title": "Retention Rate by Motor Product (Top 10 by Volume)",
-  "products": [
-    {
-      "product": "Product",
-      "totalPolicies": "Total Policies",
-      "renewed": "Renewed",
-      "churned": "Churned",
-      "avgPremium": "Avg Premium (GHS)",
-      "retentionPct": "Retention %",
-      "churnPct": "Churn %"
-    },
-    {
-      "product": "1001 - Private Cars - Individual",
-      "totalPolicies": 140804,
-      "renewed": 60053,
-      "churned": 80751,
-      "avgPremium": 454.2,
-      "retentionPct": 42.65,
-      "churnPct": 57.35
-    },
-    {
-      "product": "1010 - Commercial Motor - Passenger Carrying",
-      "totalPolicies": 61647,
-      "renewed": 22857,
-      "churned": 38790,
-      "avgPremium": 414.93,
-      "retentionPct": 37.08,
-      "churnPct": 62.92
-    },
-    {
-      "product": "1014 - Commercial Motor - Goods Carrying",
-      "totalPolicies": 18684,
-      "renewed": 6230,
-      "churned": 12454,
-      "avgPremium": 1001.33,
-      "retentionPct": 33.34,
-      "churnPct": 66.66
-    },
-    {
-      "product": "1020 - Motor cycle Individual",
-      "totalPolicies": 10503,
-      "renewed": 1628,
-      "churned": 8875,
-      "avgPremium": 163.68,
-      "retentionPct": 15.5,
-      "churnPct": 84.5
-    },
-    {
-      "product": "1031 - Motor Trade - Road Risk",
-      "totalPolicies": 9404,
-      "renewed": 3768,
-      "churned": 5636,
-      "avgPremium": 106.47,
-      "retentionPct": 40.07,
-      "churnPct": 59.93
-    },
-    {
-      "product": "1002 - Private Car Corporate",
-      "totalPolicies": 7543,
-      "renewed": 2575,
-      "churned": 4968,
-      "avgPremium": 3079.13,
-      "retentionPct": 34.14,
-      "churnPct": 65.86
-    },
-    {
-      "product": "1018 - Commercial Motor - Special Type",
-      "totalPolicies": 1080,
-      "renewed": 267,
-      "churned": 813,
-      "avgPremium": 1475.16,
-      "retentionPct": 24.72,
-      "churnPct": 75.28
-    },
-    {
-      "product": "1030 - Motor Trade - Internal Risk",
-      "totalPolicies": 910,
-      "renewed": 403,
-      "churned": 507,
-      "avgPremium": 642.4,
-      "retentionPct": 44.29,
-      "churnPct": 55.71
-    },
-    {
-      "product": "1021 - Motor cycle Corporate",
-      "totalPolicies": 748,
-      "renewed": 125,
-      "churned": 623,
-      "avgPremium": 1714.23,
-      "retentionPct": 16.71,
-      "churnPct": 83.29
-    },
-    {
-      "product": "1003 - Motor Fleet",
-      "totalPolicies": 148,
-      "renewed": 22,
-      "churned": 126,
-      "avgPremium": 29418.72,
-      "retentionPct": 14.86,
-      "churnPct": 85.14
-    }
-  ],
-  "finding": "Finding #3: Motorcycle retention is just 15-17% \u2014 6x worse than Private Cars"
+ "title": "Retention Rate by Motor Product (Top 10 by Volume)",
+ "products": [
+  {
+   "product": "Product",
+   "totalPolicies": "Total Policies",
+   "renewed": "Renewed",
+   "churned": "Churned",
+   "avgPremium": "Avg Premium (GHS)",
+   "retentionPct": "Retention %",
+   "churnPct": "Churn %"
+  },
+  {
+   "product": "1030 - Motor Trade - Internal Risk",
+   "totalPolicies": 913,
+   "renewed": 410,
+   "churned": 500,
+   "avgPremium": 710.24,
+   "retentionPct": 45.05,
+   "churnPct": 54.95
+  },
+  {
+   "product": "1001 - Private Cars - Individual",
+   "totalPolicies": 179706,
+   "renewed": 62891,
+   "churned": 78431,
+   "avgPremium": 515.92,
+   "retentionPct": 44.5,
+   "churnPct": 55.5
+  },
+  {
+   "product": "1010 - Commercial Motor - Passenger Carrying",
+   "totalPolicies": 71343,
+   "renewed": 23168,
+   "churned": 38487,
+   "avgPremium": 445.28,
+   "retentionPct": 37.58,
+   "churnPct": 62.42
+  },
+  {
+   "product": "1031 - Motor Trade - Road Risk",
+   "totalPolicies": 9507,
+   "renewed": 3385,
+   "churned": 6019,
+   "avgPremium": 109.25,
+   "retentionPct": 36.0,
+   "churnPct": 64.0
+  },
+  {
+   "product": "1002 - Private Car Corporate",
+   "totalPolicies": 10037,
+   "renewed": 2716,
+   "churned": 5122,
+   "avgPremium": 3330.84,
+   "retentionPct": 34.65,
+   "churnPct": 65.35
+  },
+  {
+   "product": "1014 - Commercial Motor - Goods Carrying",
+   "totalPolicies": 23948,
+   "renewed": 6284,
+   "churned": 12595,
+   "avgPremium": 1118.68,
+   "retentionPct": 33.29,
+   "churnPct": 66.71
+  },
+  {
+   "product": "1018 - Commercial Motor - Special Type",
+   "totalPolicies": 1415,
+   "renewed": 281,
+   "churned": 852,
+   "avgPremium": 1796.85,
+   "retentionPct": 24.8,
+   "churnPct": 75.2
+  },
+  {
+   "product": "1020 - Motor cycle Individual",
+   "totalPolicies": 13923,
+   "renewed": 1789,
+   "churned": 8721,
+   "avgPremium": 180.8,
+   "retentionPct": 17.02,
+   "churnPct": 82.98
+  },
+  {
+   "product": "1021 - Motor cycle Corporate",
+   "totalPolicies": 980,
+   "renewed": 124,
+   "churned": 624,
+   "avgPremium": 1491.02,
+   "retentionPct": 16.58,
+   "churnPct": 83.42
+  },
+  {
+   "product": "1003 - Motor Fleet",
+   "totalPolicies": 212,
+   "renewed": 29,
+   "churned": 150,
+   "avgPremium": 16311.7,
+   "retentionPct": 16.2,
+   "churnPct": 83.8
+  }
+ ],
+ "finding": "Finding #3: Motorcycle retention is just 15-17% — 6x worse than Private Cars"
 }

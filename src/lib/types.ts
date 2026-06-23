@@ -215,3 +215,24 @@ export interface ChurnSignalsData {
   topAgents: AgentRow[];
   finding: string;
 }
+
+export interface RenewalTimingSplit {
+  observable60: number;
+  observable120: number;
+  onTime: number;
+  tookLonger: number;
+  churned60: number;
+  churned120: number;
+  retention60: number;
+  retention120: number;
+  channel?: string;
+  cohort?: number;
+}
+export interface RenewalTimingData {
+  title: string;
+  windowNote: string;
+  overall: RenewalTimingSplit;
+  byChannel: RenewalTimingSplit[];
+  byCohort: RenewalTimingSplit[];
+  finding: string;
+}

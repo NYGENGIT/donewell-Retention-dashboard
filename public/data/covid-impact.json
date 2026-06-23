@@ -1,206 +1,196 @@
 {
-  "title": "COVID-19 Impact \u2014 Half-Yearly Premium & Retention",
-  "premium": [
-    {
-      "halfYear": "Half-Year",
-      "policies": "Policies",
-      "customers": "Customers",
-      "newCustomers": "New Customers",
-      "totalPremium": "Total Premium (GHS)",
-      "avgPremium": "Avg Premium (GHS)",
-      "phase": "COVID Phase",
-      "newCustomerPct": "New Customer %",
-      "totalPremiumM": "Total Premium (GHS M)"
-    },
-    {
-      "halfYear": "2020H1",
-      "policies": 23223,
-      "customers": 20870,
-      "newCustomers": 20865,
-      "totalPremium": 11635504.47,
-      "avgPremium": 501.03,
-      "phase": "Pre-COVID (Jan-Jun 2020)",
-      "newCustomerPct": 99.98,
-      "totalPremiumM": 11.64
-    },
-    {
-      "halfYear": "2020H2",
-      "policies": 29815,
-      "customers": 26227,
-      "newCustomers": 23517,
-      "totalPremium": 14480398.27,
-      "avgPremium": 485.67,
-      "phase": "COVID Onset (Jul-Dec 2020)",
-      "newCustomerPct": 89.67,
-      "totalPremiumM": 14.48
-    },
-    {
-      "halfYear": "2021H1",
-      "policies": 36981,
-      "customers": 32204,
-      "newCustomers": 21450,
-      "totalPremium": 18316485.99,
-      "avgPremium": 495.29,
-      "phase": "COVID Mid (Jan-Jun 2021)",
-      "newCustomerPct": 66.61,
-      "totalPremiumM": 18.32
-    },
-    {
-      "halfYear": "2021H2",
-      "policies": 31209,
-      "customers": 26913,
-      "newCustomers": 13432,
-      "totalPremium": 15650882.26,
-      "avgPremium": 501.49,
-      "phase": "Recovery (Jul-Dec 2021)",
-      "newCustomerPct": 49.91,
-      "totalPremiumM": 15.65
-    },
-    {
-      "halfYear": "2022H1",
-      "policies": 37007,
-      "customers": 31320,
-      "newCustomers": 15352,
-      "totalPremium": 20693208.06,
-      "avgPremium": 559.17,
-      "phase": "Post-COVID (Jan-Jun 2022)",
-      "newCustomerPct": 49.02,
-      "totalPremiumM": 20.69
-    },
-    {
-      "halfYear": "2022H2",
-      "policies": 30331,
-      "customers": 26336,
-      "newCustomers": 11668,
-      "totalPremium": 16140270.53,
-      "avgPremium": 532.14,
-      "phase": "Post-COVID (Jul-Dec 2022)",
-      "newCustomerPct": 44.3,
-      "totalPremiumM": 16.14
-    },
-    {
-      "halfYear": "2023H1",
-      "policies": 34365,
-      "customers": 29842,
-      "newCustomers": 13204,
-      "totalPremium": 25986412.39,
-      "avgPremium": 756.19,
-      "phase": "Post-COVID (Jan-Jun 2023)",
-      "newCustomerPct": 44.25,
-      "totalPremiumM": 25.99
-    },
-    {
-      "halfYear": "2023H2",
-      "policies": 28272,
-      "customers": 25189,
-      "newCustomers": 10331,
-      "totalPremium": 21898084.07,
-      "avgPremium": 774.55,
-      "phase": "Post-COVID (Jul-Dec 2023)",
-      "newCustomerPct": 41.01,
-      "totalPremiumM": 21.9
-    },
-    {
-      "halfYear": "2024H1",
-      "policies": 32173,
-      "customers": 28255,
-      "newCustomers": 11904,
-      "totalPremium": 27461503.42,
-      "avgPremium": 853.56,
-      "phase": "Post-COVID (Jan-Jun 2024)",
-      "newCustomerPct": 42.13,
-      "totalPremiumM": 27.46
-    },
-    {
-      "halfYear": "2024H2",
-      "policies": 27071,
-      "customers": 24017,
-      "newCustomers": 9570,
-      "totalPremium": 21716206.23,
-      "avgPremium": 802.19,
-      "phase": "Post-COVID (Jul-Dec 2024)",
-      "newCustomerPct": 39.85,
-      "totalPremiumM": 21.72
-    }
-  ],
-  "retention": [
-    {
-      "halfYear": "Half-Year",
-      "observablePolicies": "Observable Policies",
-      "renewed": "Renewed",
-      "retentionPct": "Retention %",
-      "phase": "COVID Phase"
-    },
-    {
-      "halfYear": "2020H1",
-      "observablePolicies": 23223,
-      "renewed": 8876,
-      "retentionPct": 38.22,
-      "phase": "Pre-COVID (Jan-Jun 2020)"
-    },
-    {
-      "halfYear": "2020H2",
-      "observablePolicies": 29815,
-      "renewed": 11705,
-      "retentionPct": 39.26,
-      "phase": "COVID Onset (Jul-Dec 2020)"
-    },
-    {
-      "halfYear": "2021H1",
-      "observablePolicies": 36981,
-      "renewed": 13832,
-      "retentionPct": 37.4,
-      "phase": "COVID Mid (Jan-Jun 2021)"
-    },
-    {
-      "halfYear": "2021H2",
-      "observablePolicies": 31209,
-      "renewed": 12098,
-      "retentionPct": 38.76,
-      "phase": "Recovery (Jul-Dec 2021)"
-    },
-    {
-      "halfYear": "2022H1",
-      "observablePolicies": 37007,
-      "renewed": 14476,
-      "retentionPct": 39.12,
-      "phase": "Post-COVID (Jan-Jun 2022)"
-    },
-    {
-      "halfYear": "2022H2",
-      "observablePolicies": 30331,
-      "renewed": 11600,
-      "retentionPct": 38.24,
-      "phase": "Post-COVID (Jul-Dec 2022)"
-    },
-    {
-      "halfYear": "2023H1",
-      "observablePolicies": 34365,
-      "renewed": 13245,
-      "retentionPct": 38.54,
-      "phase": "Post-COVID (Jan-Jun 2023)"
-    },
-    {
-      "halfYear": "2023H2",
-      "observablePolicies": 21771,
-      "renewed": 8758,
-      "retentionPct": 40.23,
-      "phase": "Post-COVID (Jul-Dec 2023)"
-    },
-    {
-      "halfYear": "2024H1",
-      "observablePolicies": 5509,
-      "renewed": 2612,
-      "retentionPct": 47.41,
-      "phase": "Post-COVID (Jan-Jun 2024)"
-    },
-    {
-      "halfYear": "2024H2",
-      "observablePolicies": 1239,
-      "renewed": 721,
-      "retentionPct": 58.19,
-      "phase": "Post-COVID (Jul-Dec 2024)"
-    }
-  ],
-  "finding": "Finding #5: A stress test Donewell passed \u2014 premium held firm and tripled through the pandemic"
+ "title": "COVID-19 Impact — Half-Yearly Premium & Retention",
+ "premium": [
+  {
+   "halfYear": "Half-Year",
+   "policies": "Policies",
+   "customers": "Customers",
+   "newCustomers": "New Customers",
+   "totalPremium": "Total Premium (GHS)",
+   "avgPremium": "Avg Premium (GHS)",
+   "phase": "COVID Phase",
+   "newCustomerPct": "New Customer %",
+   "totalPremiumM": "Total Premium (GHS M)"
+  },
+  {
+   "halfYear": "2020H1",
+   "policies": 23274,
+   "customers": 20534,
+   "newCustomers": 20534,
+   "totalPremium": 11057710.32,
+   "avgPremium": 475.11,
+   "phase": "Pre-COVID (Jan-Jun 2020)",
+   "newCustomerPct": 100.0
+  },
+  {
+   "halfYear": "2020H2",
+   "policies": 29945,
+   "customers": 25771,
+   "newCustomers": 22562,
+   "totalPremium": 13632714.82,
+   "avgPremium": 455.26,
+   "phase": "COVID Onset (Jul-Dec 2020)",
+   "newCustomerPct": 87.55
+  },
+  {
+   "halfYear": "2021H1",
+   "policies": 37111,
+   "customers": 31532,
+   "newCustomers": 19728,
+   "totalPremium": 18245643.17,
+   "avgPremium": 491.65,
+   "phase": "COVID Mid (Jan-Jun 2021)",
+   "newCustomerPct": 62.57
+  },
+  {
+   "halfYear": "2021H2",
+   "policies": 31334,
+   "customers": 26461,
+   "newCustomers": 11835,
+   "totalPremium": 16012576.91,
+   "avgPremium": 511.03,
+   "phase": "Recovery (Jul-Dec 2021)",
+   "newCustomerPct": 44.73
+  },
+  {
+   "halfYear": "2022H1",
+   "policies": 37154,
+   "customers": 30757,
+   "newCustomers": 13393,
+   "totalPremium": 20465568.07,
+   "avgPremium": 550.83,
+   "phase": "Post-COVID (Jan-Jun 2022)",
+   "newCustomerPct": 43.54
+  },
+  {
+   "halfYear": "2022H2",
+   "policies": 30489,
+   "customers": 25907,
+   "newCustomers": 9960,
+   "totalPremium": 17367644.57,
+   "avgPremium": 569.64,
+   "phase": "Post-COVID (Jul-Dec 2022)",
+   "newCustomerPct": 38.45
+  },
+  {
+   "halfYear": "2023H1",
+   "policies": 34577,
+   "customers": 29398,
+   "newCustomers": 11287,
+   "totalPremium": 26368180.44,
+   "avgPremium": 762.59,
+   "phase": "Post-COVID (Jan-Jun 2023)",
+   "newCustomerPct": 38.39
+  },
+  {
+   "halfYear": "2023H2",
+   "policies": 28430,
+   "customers": 24796,
+   "newCustomers": 8389,
+   "totalPremium": 21931703.06,
+   "avgPremium": 771.43,
+   "phase": "Post-COVID (Jul-Dec 2023)",
+   "newCustomerPct": 33.83
+  },
+  {
+   "halfYear": "2024H1",
+   "policies": 32365,
+   "customers": 27855,
+   "newCustomers": 9304,
+   "totalPremium": 27940293.82,
+   "avgPremium": 863.29,
+   "phase": "Post-COVID (Jan-Jun 2024)",
+   "newCustomerPct": 33.4
+  },
+  {
+   "halfYear": "2024H2",
+   "policies": 27305,
+   "customers": 23725,
+   "newCustomers": 7542,
+   "totalPremium": 23348483.0,
+   "avgPremium": 855.1,
+   "phase": "Post-COVID (Jul-Dec 2024)",
+   "newCustomerPct": 31.79
+  }
+ ],
+ "retention": [
+  {
+   "halfYear": "Half-Year",
+   "observablePolicies": "Observable Policies",
+   "renewed": "Renewed",
+   "retentionPct": "Retention %",
+   "phase": "COVID Phase"
+  },
+  {
+   "halfYear": "2020H1",
+   "observablePolicies": 23274,
+   "renewed": 9192,
+   "retentionPct": 39.49,
+   "phase": "Pre-COVID (Jan-Jun 2020)"
+  },
+  {
+   "halfYear": "2020H2",
+   "observablePolicies": 29945,
+   "renewed": 12018,
+   "retentionPct": 40.13,
+   "phase": "COVID Onset (Jul-Dec 2020)"
+  },
+  {
+   "halfYear": "2021H1",
+   "observablePolicies": 37111,
+   "renewed": 14177,
+   "retentionPct": 38.2,
+   "phase": "COVID Mid (Jan-Jun 2021)"
+  },
+  {
+   "halfYear": "2021H2",
+   "observablePolicies": 31334,
+   "renewed": 12250,
+   "retentionPct": 39.09,
+   "phase": "Recovery (Jul-Dec 2021)"
+  },
+  {
+   "halfYear": "2022H1",
+   "observablePolicies": 37154,
+   "renewed": 14666,
+   "retentionPct": 39.47,
+   "phase": "Post-COVID (Jan-Jun 2022)"
+  },
+  {
+   "halfYear": "2022H2",
+   "observablePolicies": 30489,
+   "renewed": 11972,
+   "retentionPct": 39.27,
+   "phase": "Post-COVID (Jul-Dec 2022)"
+  },
+  {
+   "halfYear": "2023H1",
+   "observablePolicies": 34577,
+   "renewed": 14019,
+   "retentionPct": 40.54,
+   "phase": "Post-COVID (Jan-Jun 2023)"
+  },
+  {
+   "halfYear": "2023H2",
+   "observablePolicies": 21896,
+   "renewed": 9312,
+   "retentionPct": 42.53,
+   "phase": "Post-COVID (Jul-Dec 2023)"
+  },
+  {
+   "halfYear": "2024H1",
+   "observablePolicies": 5550,
+   "renewed": 2730,
+   "retentionPct": 49.19,
+   "phase": "Post-COVID (Jan-Jun 2024)"
+  },
+  {
+   "halfYear": "2024H2",
+   "observablePolicies": 1248,
+   "renewed": 741,
+   "retentionPct": 59.38,
+   "phase": "Post-COVID (Jul-Dec 2024)"
+  }
+ ],
+ "finding": "Finding #5: A stress test Donewell passed — premium held firm and tripled through the pandemic"
 }

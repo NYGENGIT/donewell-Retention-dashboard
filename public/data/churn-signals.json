@@ -1,210 +1,196 @@
 {
-  "title": "Predictive Churn Signals & Agent Performance",
-  "correlations": [
-    {
-      "feature": "Feature",
-      "correlation": "Correlation w/ Churn",
-      "meanChurned": "Mean (Churned)",
-      "meanRenewed": "Mean (Renewed)",
-      "direction": "Direction"
-    },
-    {
-      "feature": "tenure_days_policy",
-      "correlation": 0.0696,
-      "meanChurned": 303.72,
-      "meanRenewed": 286.8,
-      "direction": "\u2191 increases churn"
-    },
-    {
-      "feature": "Our Share %",
-      "correlation": 0.0213,
-      "meanChurned": 92.85,
-      "meanRenewed": 91.69,
-      "direction": "\u2191 increases churn"
-    },
-    {
-      "feature": "issue_lead_days",
-      "correlation": -0.0104,
-      "meanChurned": 11.26,
-      "meanRenewed": 12.68,
-      "direction": "\u2193 decreases churn"
-    },
-    {
-      "feature": "100% Net Premium",
-      "correlation": 0.0095,
-      "meanChurned": 598.58,
-      "meanRenewed": 511.54,
-      "direction": "\u2191 increases churn"
-    },
-    {
-      "feature": "premium_per_day",
-      "correlation": 0.0005,
-      "meanChurned": 2.13,
-      "meanRenewed": 2.11,
-      "direction": "\u2191 increases churn"
-    }
-  ],
-  "issueTiming": [
-    {
-      "timing": "Issue Timing",
-      "policies": "Policies",
-      "churned": "Churned",
-      "churnPct": "Churn %"
-    },
-    {
-      "timing": "Late (\u22640d)",
-      "policies": 178860,
-      "churned": 115770,
-      "churnPct": 64.73
-    },
-    {
-      "timing": "Last-minute (1-7d)",
-      "policies": 23750,
-      "churned": 11029,
-      "churnPct": 46.44
-    },
-    {
-      "timing": "Normal (8-30d)",
-      "policies": 20663,
-      "churned": 10347,
-      "churnPct": 50.08
-    },
-    {
-      "timing": "Early (>30d)",
-      "policies": 28198,
-      "churned": 16397,
-      "churnPct": 58.15
-    }
-  ],
-  "topAgents": [
-    {
-      "code": "Agent Code",
-      "name": "Agent Name",
-      "policies": "Policies",
-      "renewed": "Renewed",
-      "totalPremium": "Total Premium (GHS)",
-      "retentionPct": "Retention %"
-    },
-    {
-      "code": "AG00052",
-      "name": "MERCY WHYTE",
-      "policies": 13422,
-      "renewed": 4491,
-      "totalPremium": 6741836.22,
-      "retentionPct": 33.46
-    },
-    {
-      "code": "AG00097",
-      "name": "JONAS GYEBI MARFO",
-      "policies": 6807,
-      "renewed": 3501,
-      "totalPremium": 2696108.55,
-      "retentionPct": 51.43
-    },
-    {
-      "code": "AG00137",
-      "name": "GIFTY AGOE",
-      "policies": 6426,
-      "renewed": 2150,
-      "totalPremium": 2791598.62,
-      "retentionPct": 33.46
-    },
-    {
-      "code": "AG00026",
-      "name": "ANNOR ANDRIANA",
-      "policies": 6406,
-      "renewed": 2473,
-      "totalPremium": 2231964.51,
-      "retentionPct": 38.6
-    },
-    {
-      "code": "AG00094",
-      "name": "BARBARA OSEI",
-      "policies": 6401,
-      "renewed": 2709,
-      "totalPremium": 2807625.58,
-      "retentionPct": 42.32
-    },
-    {
-      "code": "AG00095",
-      "name": "FLORENCE APPIAH",
-      "policies": 5996,
-      "renewed": 2169,
-      "totalPremium": 1810269.28,
-      "retentionPct": 36.17
-    },
-    {
-      "code": "AG00201",
-      "name": "SANDRA TETTEH",
-      "policies": 5328,
-      "renewed": 1974,
-      "totalPremium": 1637459.19,
-      "retentionPct": 37.05
-    },
-    {
-      "code": "AG00015",
-      "name": "GRACE AVADZIE",
-      "policies": 5136,
-      "renewed": 2075,
-      "totalPremium": 1886221.81,
-      "retentionPct": 40.4
-    },
-    {
-      "code": "AG00096",
-      "name": "GIFTY OKWAN",
-      "policies": 4662,
-      "renewed": 1683,
-      "totalPremium": 1484361.02,
-      "retentionPct": 36.1
-    },
-    {
-      "code": "AG00014",
-      "name": "GODWIN VANDYCK",
-      "policies": 4533,
-      "renewed": 1901,
-      "totalPremium": 1633037.49,
-      "retentionPct": 41.94
-    },
-    {
-      "code": "AG00025",
-      "name": "EBENEZER ADJEI",
-      "policies": 4353,
-      "renewed": 2046,
-      "totalPremium": 2333004.24,
-      "retentionPct": 47
-    },
-    {
-      "code": "AG00020",
-      "name": "DORCAS AMISSAH",
-      "policies": 4334,
-      "renewed": 1180,
-      "totalPremium": 1515220.58,
-      "retentionPct": 27.23
-    },
-    {
-      "code": "AG00001",
-      "name": "JACOB AKROFI",
-      "policies": 4298,
-      "renewed": 1233,
-      "totalPremium": 1262154.84,
-      "retentionPct": 28.69
-    },
-    {
-      "code": "AG00112",
-      "name": "MARK COFFIE",
-      "policies": 3945,
-      "renewed": 1771,
-      "totalPremium": 1222516.7,
-      "retentionPct": 44.89
-    },
-    {
-      "code": "AG00084",
-      "name": "ALBERTA POKUAA",
-      "policies": 3927,
-      "renewed": 987,
-      "totalPremium": 905931.13,
-      "retentionPct": 25.13
-    }
-  ],
-  "finding": "Late-issued (back-dated) policies churn at 65%; last-minute (1-7d) renewals are the strongest protective factor"
+ "title": "Predictive Churn Signals & Agent Performance",
+ "correlations": [
+  {
+   "feature": "Feature",
+   "correlation": "Correlation w/ Churn",
+   "meanChurned": "Mean (Churned)",
+   "meanRenewed": "Mean (Renewed)",
+   "direction": "Direction"
+  },
+  {
+   "feature": "Tenure (days)",
+   "correlation": 0.06,
+   "meanChurned": 302.41,
+   "meanRenewed": 288.84,
+   "direction": "↑ churn"
+  },
+  {
+   "feature": "Net Premium",
+   "correlation": 0.01,
+   "meanChurned": 582.39,
+   "meanRenewed": 543.38,
+   "direction": "↑ churn"
+  },
+  {
+   "feature": "Issue gap (days)",
+   "correlation": -0.01,
+   "meanChurned": 11.06,
+   "meanRenewed": 12.87,
+   "direction": "↓ churn"
+  }
+ ],
+ "issueTiming": [
+  {
+   "timing": "Issue Timing",
+   "policies": "Policies",
+   "churned": "Churned",
+   "churnPct": "Churn %"
+  },
+  {
+   "timing": "Late (≤0d)",
+   "policies": 179356,
+   "churned": 114364,
+   "churnPct": 63.76
+  },
+  {
+   "timing": "Last-minute (1-7d)",
+   "policies": 23923,
+   "churned": 10797,
+   "churnPct": 45.13
+  },
+  {
+   "timing": "Normal (8-30d)",
+   "policies": 20780,
+   "churned": 10059,
+   "churnPct": 48.41
+  },
+  {
+   "timing": "Early (>30d)",
+   "policies": 28519,
+   "churned": 16281,
+   "churnPct": 57.09
+  }
+ ],
+ "topAgents": [
+  {
+   "code": "AG00244",
+   "name": "REXFORD  ACQUAH",
+   "policies": 339,
+   "renewed": 129,
+   "totalPremium": 120445.17,
+   "retentionPct": 61.14
+  },
+  {
+   "code": "AG00294",
+   "name": "DORIS  AVAGAH",
+   "policies": 797,
+   "renewed": 108,
+   "totalPremium": 302226.91,
+   "retentionPct": 59.67
+  },
+  {
+   "code": "AG00092",
+   "name": "ROCKSON AGYEMAN",
+   "policies": 2850,
+   "renewed": 1340,
+   "totalPremium": 3270683.98,
+   "retentionPct": 55.95
+  },
+  {
+   "code": "AG00045",
+   "name": "REUBEN AMISSAH",
+   "policies": 713,
+   "renewed": 306,
+   "totalPremium": 1215191.87,
+   "retentionPct": 54.16
+  },
+  {
+   "code": "AG00221",
+   "name": "CORNELIA YAFO- MENSAH",
+   "policies": 567,
+   "renewed": 192,
+   "totalPremium": 609942.94,
+   "retentionPct": 53.33
+  },
+  {
+   "code": "AG00098",
+   "name": "EPHRAIM SACKEY",
+   "policies": 2900,
+   "renewed": 1361,
+   "totalPremium": 755977.44,
+   "retentionPct": 53.18
+  },
+  {
+   "code": "AG00133",
+   "name": "GIFTY ADAMS  TAGOE",
+   "policies": 584,
+   "renewed": 235,
+   "totalPremium": 1358754.48,
+   "retentionPct": 52.69
+  },
+  {
+   "code": "AG00032",
+   "name": "DORIS BAIDOO",
+   "policies": 1785,
+   "renewed": 745,
+   "totalPremium": 892861.55,
+   "retentionPct": 52.5
+  },
+  {
+   "code": "AG00217",
+   "name": "ESTHER  OFORIWAA",
+   "policies": 918,
+   "renewed": 344,
+   "totalPremium": 428965.77,
+   "retentionPct": 52.04
+  },
+  {
+   "code": "AG00308",
+   "name": "AKWASI  ARHIN",
+   "policies": 584,
+   "renewed": 21,
+   "totalPremium": 218746.0,
+   "retentionPct": 51.22
+  },
+  {
+   "code": "AG00097",
+   "name": "JONAS GYEBI MARFO",
+   "policies": 7987,
+   "renewed": 3485,
+   "totalPremium": 3658103.55,
+   "retentionPct": 51.21
+  },
+  {
+   "code": "AG00028",
+   "name": "JOSHUA AYENSU",
+   "policies": 3619,
+   "renewed": 1460,
+   "totalPremium": 2401585.82,
+   "retentionPct": 50.91
+  },
+  {
+   "code": "AG00292",
+   "name": "MARY KANI KORLETEY",
+   "policies": 1100,
+   "renewed": 69,
+   "totalPremium": 524332.13,
+   "retentionPct": 50.74
+  },
+  {
+   "code": "AG00118",
+   "name": "ALICE TSOTSO DANSO KANI",
+   "policies": 473,
+   "renewed": 188,
+   "totalPremium": 156962.23,
+   "retentionPct": 49.21
+  },
+  {
+   "code": "AG00069",
+   "name": "JOSHUA QUARTEY-PAPAFIO",
+   "policies": 393,
+   "renewed": 142,
+   "totalPremium": 195633.72,
+   "retentionPct": 49.13
+  },
+  {
+   "code": "AG00117",
+   "name": "JANET ARABA ANSAH",
+   "policies": 284,
+   "renewed": 118,
+   "totalPremium": 393298.53,
+   "retentionPct": 48.16
+  }
+ ],
+ "finding": "Late-issued (back-dated) policies churn at 65%; last-minute (1-7d) renewals are the strongest protective factor"
 }

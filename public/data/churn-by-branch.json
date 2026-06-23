@@ -1,222 +1,222 @@
 {
-  "title": "Retention by Branch",
-  "branches": [
-    {
-      "branch": "Main Office",
-      "code": "100",
-      "totalPolicies": 47972,
-      "renewed": 18255,
-      "churned": 29717,
-      "retentionPct": 38.05
-    },
-    {
-      "branch": "Kumasi",
-      "code": "107",
-      "totalPolicies": 26350,
-      "renewed": 10362,
-      "churned": 15988,
-      "retentionPct": 39.32
-    },
-    {
-      "branch": "Madina",
-      "code": "103",
-      "totalPolicies": 24539,
-      "renewed": 9200,
-      "churned": 15339,
-      "retentionPct": 37.49
-    },
-    {
-      "branch": "Dansoman",
-      "code": "102",
-      "totalPolicies": 19849,
-      "renewed": 10010,
-      "churned": 9839,
-      "retentionPct": 50.43
-    },
-    {
-      "branch": "Tema",
-      "code": "101",
-      "totalPolicies": 18747,
-      "renewed": 6924,
-      "churned": 11823,
-      "retentionPct": 36.93
-    },
-    {
-      "branch": "Cape Coast",
-      "code": "105",
-      "totalPolicies": 16256,
-      "renewed": 6655,
-      "churned": 9601,
-      "retentionPct": 40.94
-    },
-    {
-      "branch": "Wejia",
-      "code": "116",
-      "totalPolicies": 10785,
-      "renewed": 3891,
-      "churned": 6894,
-      "retentionPct": 36.08
-    },
-    {
-      "branch": "Spintex",
-      "code": "104",
-      "totalPolicies": 9739,
-      "renewed": 3228,
-      "churned": 6511,
-      "retentionPct": 33.15
-    },
-    {
-      "branch": "Koforidua",
-      "code": "109",
-      "totalPolicies": 8230,
-      "renewed": 2475,
-      "churned": 5755,
-      "retentionPct": 30.07
-    },
-    {
-      "branch": "Takoradi",
-      "code": "106",
-      "totalPolicies": 7951,
-      "renewed": 3434,
-      "churned": 4517,
-      "retentionPct": 43.19
-    },
-    {
-      "branch": "Techiman",
-      "code": "119",
-      "totalPolicies": 7647,
-      "renewed": 2278,
-      "churned": 5369,
-      "retentionPct": 29.79
-    },
-    {
-      "branch": "Sunyani",
-      "code": "108",
-      "totalPolicies": 6312,
-      "renewed": 2139,
-      "churned": 4173,
-      "retentionPct": 33.89
-    },
-    {
-      "branch": "Kasoa",
-      "code": "115",
-      "totalPolicies": 6237,
-      "renewed": 2612,
-      "churned": 3625,
-      "retentionPct": 41.88
-    },
-    {
-      "branch": "Winneba",
-      "code": "121",
-      "totalPolicies": 5674,
-      "renewed": 2604,
-      "churned": 3070,
-      "retentionPct": 45.89
-    },
-    {
-      "branch": "Swedru",
-      "code": "120",
-      "totalPolicies": 4199,
-      "renewed": 1110,
-      "churned": 3089,
-      "retentionPct": 26.43
-    },
-    {
-      "branch": "Kwashieman",
-      "code": "114",
-      "totalPolicies": 4009,
-      "renewed": 2028,
-      "churned": 1981,
-      "retentionPct": 50.59
-    },
-    {
-      "branch": "Hohoe",
-      "code": "112",
-      "totalPolicies": 3926,
-      "renewed": 1721,
-      "churned": 2205,
-      "retentionPct": 43.84
-    },
-    {
-      "branch": "Ho",
-      "code": "111",
-      "totalPolicies": 3524,
-      "renewed": 820,
-      "churned": 2704,
-      "retentionPct": 23.27
-    },
-    {
-      "branch": "Akimoda",
-      "code": "124",
-      "totalPolicies": 3352,
-      "renewed": 1386,
-      "churned": 1966,
-      "retentionPct": 41.35
-    },
-    {
-      "branch": "Kaneshie",
-      "code": "113",
-      "totalPolicies": 3064,
-      "renewed": 1560,
-      "churned": 1504,
-      "retentionPct": 50.91
-    },
-    {
-      "branch": "Obuasi",
-      "code": "118",
-      "totalPolicies": 2894,
-      "renewed": 1270,
-      "churned": 1624,
-      "retentionPct": 43.88
-    },
-    {
-      "branch": "Assin Fosu",
-      "code": "125",
-      "totalPolicies": 2486,
-      "renewed": 1090,
-      "churned": 1396,
-      "retentionPct": 43.85
-    },
-    {
-      "branch": "Tarkwa",
-      "code": "117",
-      "totalPolicies": 2432,
-      "renewed": 1082,
-      "churned": 1350,
-      "retentionPct": 44.49
-    },
-    {
-      "branch": "Tamale",
-      "code": "110",
-      "totalPolicies": 2218,
-      "renewed": 605,
-      "churned": 1613,
-      "retentionPct": 27.28
-    },
-    {
-      "branch": "Nkawkaw",
-      "code": "122",
-      "totalPolicies": 1695,
-      "renewed": 653,
-      "churned": 1042,
-      "retentionPct": 38.53
-    },
-    {
-      "branch": "Somanya",
-      "code": "123",
-      "totalPolicies": 1198,
-      "renewed": 483,
-      "churned": 715,
-      "retentionPct": 40.32
-    },
-    {
-      "branch": "Tafo",
-      "code": "127",
-      "totalPolicies": 184,
-      "renewed": 53,
-      "churned": 131,
-      "retentionPct": 28.8
-    }
-  ],
-  "finding": "Dansoman leads at 50.4% \u2014 20 pts above Koforidua (30.1%). The Dansoman playbook is replicable."
+ "title": "Retention by Branch",
+ "branches": [
+  {
+   "branch": "KWASHIEMAN",
+   "code": "114",
+   "totalPolicies": 4850,
+   "renewed": 2053,
+   "churned": 2003,
+   "retentionPct": 50.62
+  },
+  {
+   "branch": "KANESHIE",
+   "code": "113",
+   "totalPolicies": 3729,
+   "renewed": 1531,
+   "churned": 1532,
+   "retentionPct": 49.98
+  },
+  {
+   "branch": "DANSOMAN",
+   "code": "102",
+   "totalPolicies": 22740,
+   "renewed": 9532,
+   "churned": 10397,
+   "retentionPct": 47.83
+  },
+  {
+   "branch": "NKAWKAW",
+   "code": "122",
+   "totalPolicies": 2053,
+   "renewed": 772,
+   "churned": 922,
+   "retentionPct": 45.57
+  },
+  {
+   "branch": "WINNEBA",
+   "code": "121",
+   "totalPolicies": 7164,
+   "renewed": 2518,
+   "churned": 3154,
+   "retentionPct": 44.39
+  },
+  {
+   "branch": "HOHOE",
+   "code": "112",
+   "totalPolicies": 4653,
+   "renewed": 1715,
+   "churned": 2211,
+   "retentionPct": 43.68
+  },
+  {
+   "branch": "ASSIN FOSU",
+   "code": "125",
+   "totalPolicies": 2925,
+   "renewed": 1075,
+   "churned": 1411,
+   "retentionPct": 43.24
+  },
+  {
+   "branch": "SOMANYA",
+   "code": "123",
+   "totalPolicies": 1461,
+   "renewed": 517,
+   "churned": 681,
+   "retentionPct": 43.16
+  },
+  {
+   "branch": "TARKWA",
+   "code": "117",
+   "totalPolicies": 3153,
+   "renewed": 1038,
+   "churned": 1394,
+   "retentionPct": 42.68
+  },
+  {
+   "branch": "TAKORADI",
+   "code": "106",
+   "totalPolicies": 9985,
+   "renewed": 3392,
+   "churned": 4567,
+   "retentionPct": 42.62
+  },
+  {
+   "branch": "KASOA",
+   "code": "115",
+   "totalPolicies": 7289,
+   "renewed": 2656,
+   "churned": 3580,
+   "retentionPct": 42.59
+  },
+  {
+   "branch": "OBUASI",
+   "code": "118",
+   "totalPolicies": 3791,
+   "renewed": 1217,
+   "churned": 1677,
+   "retentionPct": 42.05
+  },
+  {
+   "branch": "CAPE COAST",
+   "code": "105",
+   "totalPolicies": 20174,
+   "renewed": 6595,
+   "churned": 9661,
+   "retentionPct": 40.57
+  },
+  {
+   "branch": "MADINA",
+   "code": "103",
+   "totalPolicies": 30346,
+   "renewed": 9961,
+   "churned": 14609,
+   "retentionPct": 40.54
+  },
+  {
+   "branch": "AKIMODA",
+   "code": "124",
+   "totalPolicies": 4064,
+   "renewed": 1330,
+   "churned": 2022,
+   "retentionPct": 39.68
+  },
+  {
+   "branch": "TEMA",
+   "code": "101",
+   "totalPolicies": 22847,
+   "renewed": 7491,
+   "churned": 11414,
+   "retentionPct": 39.62
+  },
+  {
+   "branch": "WEJIA",
+   "code": "116",
+   "totalPolicies": 12680,
+   "renewed": 4243,
+   "churned": 6542,
+   "retentionPct": 39.34
+  },
+  {
+   "branch": "MAIN OFFICE",
+   "code": "100",
+   "totalPolicies": 60595,
+   "renewed": 19148,
+   "churned": 29563,
+   "retentionPct": 39.31
+  },
+  {
+   "branch": "KUMASI",
+   "code": "107",
+   "totalPolicies": 33928,
+   "renewed": 10243,
+   "churned": 16107,
+   "retentionPct": 38.87
+  },
+  {
+   "branch": "KOFORIDUA",
+   "code": "109",
+   "totalPolicies": 10580,
+   "renewed": 3103,
+   "churned": 5123,
+   "retentionPct": 37.72
+  },
+  {
+   "branch": "SUNYANI",
+   "code": "108",
+   "totalPolicies": 7908,
+   "renewed": 2377,
+   "churned": 3938,
+   "retentionPct": 37.64
+  },
+  {
+   "branch": "TAMALE",
+   "code": "110",
+   "totalPolicies": 3319,
+   "renewed": 764,
+   "churned": 1454,
+   "retentionPct": 34.45
+  },
+  {
+   "branch": "SPINTEX",
+   "code": "104",
+   "totalPolicies": 12672,
+   "renewed": 3367,
+   "churned": 6412,
+   "retentionPct": 34.43
+  },
+  {
+   "branch": "TECHIMAN",
+   "code": "119",
+   "totalPolicies": 8813,
+   "renewed": 2408,
+   "churned": 5240,
+   "retentionPct": 31.49
+  },
+  {
+   "branch": "TAFO",
+   "code": "127",
+   "totalPolicies": 673,
+   "renewed": 57,
+   "churned": 134,
+   "retentionPct": 29.84
+  },
+  {
+   "branch": "HO",
+   "code": "111",
+   "totalPolicies": 4657,
+   "renewed": 905,
+   "churned": 2621,
+   "retentionPct": 25.67
+  },
+  {
+   "branch": "SWEDRU",
+   "code": "120",
+   "totalPolicies": 4933,
+   "renewed": 1069,
+   "churned": 3130,
+   "retentionPct": 25.46
+  }
+ ],
+ "finding": "Dansoman leads at 50.4% — 20 pts above Koforidua (30.1%). The Dansoman playbook is replicable."
 }

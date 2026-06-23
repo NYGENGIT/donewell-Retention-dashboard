@@ -5,7 +5,7 @@ import { asset } from '@/lib/asset';
 import type {
   SummaryData, CohortData, ChurnByChannelData, ChurnByProductData, ChurnByPremiumTierData,
   ChurnByBranchData, ChannelMixData, ProductPortfolioData, RevenueTrendData, CLVData,
-  CovidImpactData, ChurnSignalsData,
+  CovidImpactData, ChurnSignalsData, RenewalTimingData,
 } from '@/lib/types';
 
 import OverviewView from '@/components/dashboard/views/OverviewView';
@@ -21,6 +21,7 @@ import RevenueTrendView from '@/components/dashboard/views/RevenueTrendView';
 import ClvView from '@/components/dashboard/views/ClvView';
 import CovidImpactView from '@/components/dashboard/views/CovidImpactView';
 import ChurnSignalsView from '@/components/dashboard/views/ChurnSignalsView';
+import RenewalTimingView from '@/components/dashboard/views/RenewalTimingView';
 import ActionPlanView from '@/components/dashboard/views/ActionPlanView';
 
 // All datasets, fetched once on mount.
@@ -37,6 +38,7 @@ interface Bundle {
   clv: CLVData;
   covid: CovidImpactData;
   signals: ChurnSignalsData;
+  renewalTiming: RenewalTimingData;
 }
 
 const FILES: Record<keyof Bundle, string> = {
@@ -52,6 +54,7 @@ const FILES: Record<keyof Bundle, string> = {
   clv: 'clv.json',
   covid: 'covid-impact.json',
   signals: 'churn-signals.json',
+  renewalTiming: 'renewal-timing.json',
 };
 
 // Navigation, grouped to match the report's narrative arc.
@@ -82,6 +85,7 @@ const NAV: { group: string; items: { id: string; label: string }[] }[] = [
       { id: 'clv', label: 'Lifetime value' },
       { id: 'covid', label: 'COVID resilience' },
       { id: 'signals', label: 'Churn signals & agents' },
+      { id: 'renewalTiming', label: 'Renewal timing (120-day)' },
     ],
   },
   {
@@ -154,6 +158,7 @@ export default function Page() {
       case 'clv': return <ClvView data={data.clv} />;
       case 'covid': return <CovidImpactView data={data.covid} />;
       case 'signals': return <ChurnSignalsView data={data.signals} />;
+      case 'renewalTiming': return <RenewalTimingView data={data.renewalTiming} />;
       case 'action': return <ActionPlanView />;
       default: return <OverviewView data={data.summary} />;
     }

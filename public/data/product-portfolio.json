@@ -1,106 +1,106 @@
 {
-  "title": "Motor Product Portfolio \u2014 Performance & Retention",
-  "products": [
-    {
-      "product": "1001 - Private Cars - Individual",
-      "policies": 179135,
-      "customers": 91025,
-      "totalPremium": 90303265.92,
-      "avgPremium": 504.11,
-      "medianPremium": 302,
-      "retentionPct": 42.65,
-      "observablePolicies": 140804
-    },
-    {
-      "product": "1010 - Commercial Motor - Passenger Carrying",
-      "policies": 71347,
-      "customers": 34874,
-      "totalPremium": 32103456.99,
-      "avgPremium": 449.96,
-      "medianPremium": 380,
-      "retentionPct": 37.08,
-      "observablePolicies": 61647
-    },
-    {
-      "product": "1014 - Commercial Motor - Goods Carrying",
-      "policies": 23721,
-      "customers": 11337,
-      "totalPremium": 24992828.42,
-      "avgPremium": 1053.62,
-      "medianPremium": 465,
-      "retentionPct": 33.34,
-      "observablePolicies": 18684
-    },
-    {
-      "product": "1020 - Motor cycle Individual",
-      "policies": 13916,
-      "customers": 10671,
-      "totalPremium": 2504902.56,
-      "avgPremium": 180,
-      "medianPremium": 125,
-      "retentionPct": 15.5,
-      "observablePolicies": 10503
-    },
-    {
-      "product": "1002 - Private Car Corporate",
-      "policies": 9672,
-      "customers": 3632,
-      "totalPremium": 33099515,
-      "avgPremium": 3422.2,
-      "medianPremium": 437,
-      "retentionPct": 34.14,
-      "observablePolicies": 7543
-    },
-    {
-      "product": "1031 - Motor Trade - Road Risk",
-      "policies": 9507,
-      "customers": 4541,
-      "totalPremium": 1042327.63,
-      "avgPremium": 109.64,
-      "medianPremium": 60,
-      "retentionPct": 40.07,
-      "observablePolicies": 9404
-    },
-    {
-      "product": "1018 - Commercial Motor - Special Type",
-      "policies": 1346,
-      "customers": 625,
-      "totalPremium": 2374452.38,
-      "avgPremium": 1764.08,
-      "medianPremium": 477,
-      "retentionPct": 24.72,
-      "observablePolicies": 1080
-    },
-    {
-      "product": "1021 - Motor cycle Corporate",
-      "policies": 980,
-      "customers": 530,
-      "totalPremium": 1484988.69,
-      "avgPremium": 1515.29,
-      "medianPremium": 272.25,
-      "retentionPct": 16.71,
-      "observablePolicies": 748
-    },
-    {
-      "product": "1030 - Motor Trade - Internal Risk",
-      "policies": 913,
-      "customers": 540,
-      "totalPremium": 585941.48,
-      "avgPremium": 641.78,
-      "medianPremium": 40,
-      "retentionPct": 44.29,
-      "observablePolicies": 910
-    },
-    {
-      "product": "1003 - Motor Fleet",
-      "policies": 174,
-      "customers": 100,
-      "totalPremium": 5806470.98,
-      "avgPremium": 33370.52,
-      "medianPremium": 2117,
-      "retentionPct": 14.86,
-      "observablePolicies": 148
-    }
-  ],
-  "finding": "3 products = 89% of volume. Private Cars Individual is the high-retention anchor; Motorcycle is the question mark."
+ "title": "Motor Product Portfolio — Performance & Retention",
+ "products": [
+  {
+   "product": "1001 - Private Cars - Individual",
+   "policies": 179706,
+   "customers": 82387,
+   "totalPremium": 92714556.68,
+   "avgPremium": 515.92,
+   "medianPremium": 302,
+   "retentionPct": 44.5,
+   "observablePolicies": 141322
+  },
+  {
+   "product": "1002 - Private Car Corporate",
+   "policies": 10037,
+   "customers": 3377,
+   "totalPremium": 33431675.79,
+   "avgPremium": 3330.84,
+   "medianPremium": 437,
+   "retentionPct": 34.65,
+   "observablePolicies": 7838
+  },
+  {
+   "product": "1010 - Commercial Motor - Passenger Carrying",
+   "policies": 71343,
+   "customers": 31490,
+   "totalPremium": 31767941.18,
+   "avgPremium": 445.28,
+   "medianPremium": 379,
+   "retentionPct": 37.58,
+   "observablePolicies": 61655
+  },
+  {
+   "product": "1014 - Commercial Motor - Goods Carrying",
+   "policies": 23948,
+   "customers": 10654,
+   "totalPremium": 26790159.04,
+   "avgPremium": 1118.68,
+   "medianPremium": 465,
+   "retentionPct": 33.29,
+   "observablePolicies": 18879
+  },
+  {
+   "product": "1003 - Motor Fleet",
+   "policies": 212,
+   "customers": 116,
+   "totalPremium": 3458081.15,
+   "avgPremium": 16311.7,
+   "medianPremium": 2702,
+   "retentionPct": 16.2,
+   "observablePolicies": 179
+  },
+  {
+   "product": "1018 - Commercial Motor - Special Type",
+   "policies": 1415,
+   "customers": 634,
+   "totalPremium": 2542542.51,
+   "avgPremium": 1796.85,
+   "medianPremium": 493,
+   "retentionPct": 24.8,
+   "observablePolicies": 1133
+  },
+  {
+   "product": "1020 - Motor cycle Individual",
+   "policies": 13923,
+   "customers": 10164,
+   "totalPremium": 2517287.96,
+   "avgPremium": 180.8,
+   "medianPremium": 125,
+   "retentionPct": 17.02,
+   "observablePolicies": 10510
+  },
+  {
+   "product": "1021 - Motor cycle Corporate",
+   "policies": 980,
+   "customers": 508,
+   "totalPremium": 1461199.92,
+   "avgPremium": 1491.02,
+   "medianPremium": 265,
+   "retentionPct": 16.58,
+   "observablePolicies": 748
+  },
+  {
+   "product": "1031 - Motor Trade - Road Risk",
+   "policies": 9507,
+   "customers": 4543,
+   "totalPremium": 1038628.6,
+   "avgPremium": 109.25,
+   "medianPremium": 60,
+   "retentionPct": 36.0,
+   "observablePolicies": 9404
+  },
+  {
+   "product": "1030 - Motor Trade - Internal Risk",
+   "policies": 913,
+   "customers": 540,
+   "totalPremium": 648445.35,
+   "avgPremium": 710.24,
+   "medianPremium": 40,
+   "retentionPct": 45.05,
+   "observablePolicies": 910
+  }
+ ],
+ "finding": "3 products = 89% of volume. Private Cars Individual is the high-retention anchor; Motorcycle is the question mark."
 }

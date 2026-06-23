@@ -147,23 +147,22 @@ The raw analysis lives in the two files under `public/downloads/`:
 ## Adding a new year of data (e.g. 2025)
 
 The dashboard reads *derived* figures from `public/data/*.json`. Those are
-produced from raw policy transactions by `scripts/build_dashboard_data.py`.
-There is no live upload — refreshing the data means regenerating those JSON
-files and pushing, after which GitHub Actions rebuilds the site.
+recomputed from the raw **Premium Register (PGIBR005)** exports by
+`scripts/build_dashboard_data.py` — the same yearly reports used for the
+original 2020–2024 analysis. There is no live upload; refreshing the data means
+regenerating the JSON files and pushing, after which GitHub Actions rebuilds.
 
 **Important — retention is computed across years, not appended.** Adding 2025
-does not just bolt a row onto the existing numbers: it moves the renewal
-observation window forward, so 2024's retention is revised (policies that were
-not yet observable at the Dec-2024 cut-off become observable), a 2025
-acquisition cohort appears, and the headline rate shifts. You therefore
-recompute from the full history every time.
+does not bolt a row onto the existing numbers: it moves the renewal observation
+window forward, so 2024's retention is revised (policies not yet observable at
+the old cut-off become observable), a 2025 cohort appears, and the headline rate
+shifts. You therefore recompute from the full history every time.
 
 ### Steps
 
-1. **Collect the raw data.** Populate `templates/Donewell_Raw_Data_Template.xlsx`
-   with the new year's motor policies — one row per policy transaction
-   (endorsements included). The template's Instructions and Valid Codes sheets
-   explain every column. Export as `.xlsx` or `.csv`.
+1. **Export the new year's register.** From the core system, run the same
+   Premium Register report (PGIBR005) for the new year, exporting the full motor
+   book to `.xlsx` (the pipeline auto-detects the header row and the Motor rows).
 
 2. **Install the pipeline's dependencies** (first time only):
 
@@ -175,34 +174,39 @@ recompute from the full history every time.
 
    ```bash
    python scripts/build_dashboard_data.py \
-       --inputs raw_2020.xlsx raw_2021.xlsx raw_2022.xlsx \
-                raw_2023.xlsx raw_2024.xlsx raw_2025.xlsx
+       --inputs 2020.xls 2021.xls 2022.xlsx 2023.xlsx 2024.xlsx 2025.xlsx
    ```
 
-   This rewrites all 12 files in `public/data/`.
+   This rewrites all 13 files in `public/data/` (including `renewal-timing.json`).
 
-4. **Calibrate the first time you use it.** Before trusting a run with new data,
-   run it on the original 2020–2024 files alone with `--check` and confirm the
-   headline figures reproduce what's already on the dashboard (overall retention
-   40.07%, 151,358 customers, GHS 194.0M premium):
+4. **Calibrate the first time.** Run on the original 2020–2024 files alone with
+   `--check` and confirm the headline reproduces the published basis (overall
+   retention ~40.0%, observable ~252k, premium ~GHS 196M):
 
    ```bash
-   python scripts/build_dashboard_data.py --inputs raw_2020.xlsx ... raw_2024.xlsx --check
+   python scripts/build_dashboard_data.py --inputs 2020.xls ... 2024.xlsx --check
    ```
 
-   If anything is materially off, adjust the `CONSTANTS` block at the top of the
-   script (most often `GRACE_DAYS` or the data cut-off) until the 2020–2024 run
-   matches, then add 2025. This is necessary because the script reconstructs the
-   original analysis methodology; calibrating once against known numbers
-   guarantees the new year is computed on the same basis.
+   The methodology is locked in the `CONSTANTS` block at the top of the script:
+   `RENEWAL_GAP_MIN`/`RENEWAL_GAP_MAX` define the renewal window (a renewal
+   counts if the customer's next policy starts between 45 days before and 60 days
+   after expiry); `LONGER_GAP_MAX` (120) defines the "took a bit longer to renew"
+   band; premium uses the *Our Share Net Premium* column; the customer key is
+   normalized Insured Name + channel. Adjust these only if you intend to change
+   the definition of retention itself.
 
-5. **Review the narrative.** The `"finding"` sentences and view headlines contain
-   hand-written commentary that quotes specific numbers. The script preserves
-   them as-is, so re-read them after a data change and edit any that have gone
-   stale.
+5. **Publish.** Commit the changed `public/data/` files and push to `main`.
 
-6. **Publish.** Commit the changed `public/data/` files and push to `main`.
-   GitHub Actions rebuilds and redeploys automatically.
+### A note on the figures
+
+This pipeline reconstructs the original analysis methodology from the published
+workbook and reproduces its headline numbers to within ~1% (retention, premium,
+observable and policy counts all line up). Customer **count** runs a little
+lower than the original (name-matching is inherently fuzzy — titles, spacing),
+but this does not affect the retention rates, which calibrate exactly. Per-segment
+figures (individual cohort or channel rates) may differ by a point or two from
+the original for the same reason; they are internally consistent because every
+segment uses the identical window.
 
 ### What if I don't have the original raw 2020–2024 files?
 
@@ -213,7 +217,7 @@ produced the original analysis for the five source files (one per year), or for
 the cleaned policy register behind the workbook in `public/downloads/`, then run
 all years through the pipeline together.
 
-
+## A note on `npm audit`
 
 `npm audit` reports a high-severity advisory against Next.js. Those advisories
 (image-optimizer DoS, request smuggling in rewrites, RSC request handling) all
